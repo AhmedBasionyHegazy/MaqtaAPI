@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackEnd", "BackEnd", "{79F48892-C341-4033-B4A2-3717901397CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maqta.API", "Maqta.API\Maqta.API.csproj", "{005F6B41-F842-4E62-8A2E-89C9B506377E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maqta.ApI.Moq", "Maqta.ApI.Moq\Maqta.ApI.Moq.csproj", "{DA84A0A7-EB63-421A-8F37-22489E6B29D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{005F6B41-F842-4E62-8A2E-89C9B506377E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{005F6B41-F842-4E62-8A2E-89C9B506377E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{005F6B41-F842-4E62-8A2E-89C9B506377E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{005F6B41-F842-4E62-8A2E-89C9B506377E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA84A0A7-EB63-421A-8F37-22489E6B29D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA84A0A7-EB63-421A-8F37-22489E6B29D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA84A0A7-EB63-421A-8F37-22489E6B29D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA84A0A7-EB63-421A-8F37-22489E6B29D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{005F6B41-F842-4E62-8A2E-89C9B506377E} = {79F48892-C341-4033-B4A2-3717901397CB}
+		{DA84A0A7-EB63-421A-8F37-22489E6B29D0} = {79F48892-C341-4033-B4A2-3717901397CB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {489067F0-EFE3-4709-A819-739E48ABE991}
+	EndGlobalSection
+EndGlobal
